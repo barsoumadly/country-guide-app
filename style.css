@@ -62,12 +62,12 @@ input[type='text'] {
 .wrapper {
   animation: anime;
   animation-duration: 1.2s;
-  animation-timing-function: ease-out;
+  animation-timing-function: ease-in;
 }
 .container .flag-img {
   animation: anime;
   animation-duration: 1.2s;
-  animation-timing-function: ease-out;
+  animation-timing-function: ease-in;
   display: block;
   width: 45%;
   min-width: 7.5em;
