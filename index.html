@@ -10,7 +10,7 @@
     />
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="icon-x" href="location.ico">
+    <link rel="icon" type="icon-x" href="location.ico" />
   </head>
   <body>
     <div class="container">
@@ -18,50 +18,11 @@
         <input
           type="text"
           id="country-inp"
-          placeholder="Enter a country name here.."
+          placeholder="Enter a country name here."
         />
         <button id="search-btn">Search</button>
       </div>
-      <div id="result">
-        <!-- <img src="${data[0].flags.svg}" class="flag-img" />
-        <h2>${data[0].name.common}</h2>
-        <div class="wrapper">
-          <div class="data-wrapper">
-            <h4>Capital:</h4>
-            <span>${data[0].capital[0]}</span>
-          </div>
-        </div>
-        <div class="wrapper">
-          <div class="data-wrapper">
-            <h4>Continent:</h4>
-            <span>${data[0].continents[0]}</span>
-          </div>
-        </div>
-        <div class="wrapper">
-          <div class="data-wrapper">
-            <h4>Population:</h4>
-            <span>${data[0].population}</span>
-          </div>
-        </div>
-        <div class="wrapper">
-          <div class="data-wrapper">
-            <h4>Currency:</h4>
-            <span
-              >${ data[0].currencies[Object.keys(data[0].currencies)].name } -
-              ${Object.keys(data[0].currencies)[0]}</span
-            >
-          </div>
-        </div>
-        <div class="wrapper">
-          <div class="data-wrapper">
-            <h4>Common Languages:</h4>
-            <span
-              >${Object.values(data[0].languages) .toString() .split(",")
-              .join(", ")}</span
-            >
-          </div>
-        </div>
-      </div> -->
+      <div id="result"></div>
     </div>
     <!-- Script -->
     <script src="script.js"></script>
